@@ -1,0 +1,58 @@
+# Xcode
+.DS_Store
+*.swp
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+!Y1Y.xcodeproj/project.xcworkspace/
+!Y1Y.xcodeproj/project.xcworkspace/xcshareddata/
+!Y1Y.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+!Y1Y.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+Y1Y.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+# Build products
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm
+.build/
+Packages/
+*.xcodeproj
+!Y1Y.xcodeproj/
+!Y1Y.xcodeproj/project.pbxproj
+
+# App Code Signing
+*.p12
+*.cer
+*.mobileprovision
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+Icon?
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temp files
+*.tmp
+*.temp
+.*.swp
+
+# Release packages
+*.dmg
+logs/
+
+# Personal settings
+*.personal.xcconfig
