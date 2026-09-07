@@ -23,7 +23,7 @@
 ## 快速上手
 
 ```bash
-git clone https://github.com/yourusername/Y1Y.git
+git clone https://github.com/33643forever/Y1Y.git
 cd Y1Y
 open Y1Y.xcodeproj
 # 按 ⌘R 运行
